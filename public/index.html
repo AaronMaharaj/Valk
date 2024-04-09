@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valkyries</title>
+    <link rel="stylesheet" href="style-home.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="home.html"><h1>Valkyries</h1></a>
+        <ul id="nav-pages">
+          <a href="menu.html"><li>Menu</li></a>
+          <a href="careers.html"><li>Careers</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
+
+        <ul id="nav-icons">
+          <li id="menu-icon"><img src="Images/Icons/menu.png" /></li>
+          <li id="cart-icon"><img src="Images/Icons/cart.png" /></li>
+          <li id="login-icon"><img src="Images/Icons/profile.png" /></li>
+        </ul>
+      </nav>
+
+      <form class="login-form">
+        <span class="title">Login</span>
+        <label for="username" class="label">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required=""
+          class="input"
+        />
+        <label for="email" class="label">Email</label>
+        <input type="email" id="email" name="email" required="" class="input" />
+        <label for="password" class="label">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required=""
+          class="input"
+        />
+        <button type="submit" class="submit">Register</button>
+      </form>
+    </header>
+    <main>
+      <section id="welcome">
+        <div id="s1-content">
+          <h3>Welcome to</h3>
+          <h2>Valkeries</h2>
+          <p>
+            Discover the Flavorful Journey Where Mexican Tradition Takes Flight
+          </p>
+        </div>
+      </section>
+
+      <section id="about-us">
+        <div id="main-info">
+          <h4>About Us</h4>
+          <h2>Our Journey</h2>
+          <p>
+            Valkyries, since the early 2000s, honors Mexican culinary heritage
+            by sourcing quality ingredients and crafting dishes rooted in
+            tradition. Each bite is a journey through time and culture
+          </p>
+          <div id="stats">
+            <div id="stats-top">
+              <div class="stat">
+                <h3>5 Resturants</h3>
+                <p>based all around Trinidad</p>
+              </div>
+              <br />
+              <hr />
+              <br />
+              <div class="stat">
+                <h3>3 Awards</h3>
+                <p>won for our cuisine</p>
+              </div>
+            </div>
+
+            <div id="stats-bottom">
+              <div class="stat">
+                <h3>100+ Workers</h3>
+                <p>ensuring customer satisfaction</p>
+              </div>
+              <br />
+              <hr />
+              <br />
+              <div class="stat">
+                <h3>10+ Years</h3>
+                <p>of quality experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="about-us-images">
+          <img src="Images/about-us-2.png" alt="Resturant Image" />
+        </div>
+      </section>
+
+      <section id="specials">
+        <h2>Sales and Specials</h2>
+        <div id="card-holder">
+          <div class="card">
+            <img src="Images/s-item1.jpg" alt="dish item" />
+            <h4>Tacos</h4>
+            <h5>
+              <span style="color: #f5a302">Price:</span>
+              <span style="font-size: 20px; color: white">$50.00</span>
+            </h5>
+            <button>Add to Cart</button>
+          </div>
+          <div class="card">
+            <img src="Images/s-item1.jpg" alt="dish item" />
+            <h4>Tacos</h4>
+            <h5>
+              <span style="color: #f5a302">Price:</span>
+              <span style="font-size: 20px; color: white">$50.00</span>
+            </h5>
+            <button>Add to Cart</button>
+          </div>
+          <div class="card">
+            <img src="Images/s-item1.jpg" alt="dish item" />
+            <h4>Tacos</h4>
+            <h5>
+              <span style="color: #f5a302">Price:</span>
+              <span style="font-size: 20px; color: white">$50.00</span>
+            </h5>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="reservation">
+        <div id="wrapper">
+          <h3>Reservation</h3>
+          <h2>Book a Table Online</h2>
+          <div id="reserve-form">
+            <div id="customer-info">
+              <div class="cus-info">
+                <input class="input" placeholder="First Name" type="email" />
+              </div>
+
+              <div class="cus-info">
+                <input class="input" placeholder="Last Name" type="email" />
+              </div>
+
+              <div class="cus-info">
+                <input class="input" placeholder="Number" type="number" />
+              </div>
+
+              <div class="cus-info">
+                <input class="input" placeholder="Email" type="email" />
+              </div>
+            </div>
+            <div class="branch-select">
+              <fieldset>
+                <legend>Choose a Branch</legend>
+                <div class="radio-item-container">
+                  <div class="radio-item">
+                    <label for="loc1">
+                      <input
+                        type="radio"
+                        id="loc1"
+                        name="branch"
+                        value="Arima"
+                      />
+                      <span>Arima</span>
+                    </label>
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="loc2">
+                      <input
+                        type="radio"
+                        id="loc2"
+                        name="branch"
+                        value="Chagaunas"
+                      />
+                      <span>Chagaunas</span></label
+                    >
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="loc3">
+                      <input
+                        type="radio"
+                        id="loc3"
+                        name="branch"
+                        value="Port-of-Spain"
+                      />
+                      <span>Port-of-Spain</span></label
+                    >
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="loc4">
+                      <input
+                        type="radio"
+                        id="loc4"
+                        name="branch"
+                        value="Chaguramas"
+                      />
+                      <span>Chaguramas</span></label
+                    >
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="loc5">
+                      <input
+                        type="radio"
+                        id="loc5"
+                        name="branch"
+                        value="San Fernando"
+                      />
+                      <span>San Fernando</span></label
+                    >
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+            <div class="people">
+              <fieldset>
+                <legend>Number of People</legend>
+                <div class="radio-item-container">
+                  <div class="radio-item">
+                    <label for="opt1">
+                      <input
+                        type="radio"
+                        id="opt1"
+                        name="persons"
+                        value="Table For One"
+                      />
+                      <span>One Person</span>
+                    </label>
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="opt2">
+                      <input
+                        type="radio"
+                        id="opt2"
+                        name="persons"
+                        value="Table For Two"
+                      />
+                      <span>Two Persons</span>
+                    </label>
+                  </div>
+                  <div class="radio-item">
+                    <label for="opt3">
+                      <input
+                        type="radio"
+                        id="opt3"
+                        name="persons"
+                        value="Table For Three"
+                      />
+                      <span>Three Persons</span>
+                    </label>
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="opt4">
+                      <input
+                        type="radio"
+                        id="opt4"
+                        name="persons"
+                        value="Table For Four"
+                      />
+                      <span>Four Persons</span>
+                    </label>
+                  </div>
+
+                  <div class="radio-item">
+                    <label for="opt5">
+                      <input
+                        type="radio"
+                        id="opt5"
+                        name="persons"
+                        value="Table For Five"
+                      />
+                      <span>Four Persons</span>
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+          <button id="reserve-btn">Submit</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="locations">
+        <h3>Locations</h3>
+        <ul>
+          <li>San Fernando</li>
+          <li>Chaguanas</li>
+          <li>Port-of-Spain</li>
+          <li>Chaguaramas</li>
+          <li>Arima</li>
+        </ul>
+      </div>
+      <div id="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <a href="menu.html"><li>Menu</li></a>
+          <a href="careers.html"><li>Careers</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div id="follow">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>
+            <a href="https://twitter.com/i/flow/login" target="_blank"
+              ><img class="link-icon" src="Images/Icons/twitter.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img class="link-icon" src="Images/Icons/instagram.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img class="link-icon" src="Images/Icons/facebook.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
